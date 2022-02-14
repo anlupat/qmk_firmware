@@ -72,7 +72,7 @@
 #define DIP_SWITCH_PINS { D7 }
 
 /* Debounce reduces chatter (unintended double-presses) - set 0 if debouncing is not needed */
-#define DEBOUNCE 0
+#define DEBOUNCE 5
 
 /* LED Status indicators */
 #define LED_CAPS_LOCK_PIN   D8
