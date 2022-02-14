@@ -20,12 +20,12 @@
 #include "config_common.h"
 
 /* USB Device descriptor parameter */
-#define VENDOR_ID       0x3434
-#define PRODUCT_ID      0xFE04
-#define DEVICE_VER      0x0002
+#define VENDOR_ID    0x3434
+#define PRODUCT_ID   0xFE04
+#define DEVICE_VER   0x0002
 
-#define MANUFACTURER    Keychron
-#define PRODUCT         K3 White Optical
+#define MANUFACTURER Keychron
+#define PRODUCT      K3 White Optical
 
 #define USB_MAX_POWER_CONSUMPTION 100
 
@@ -33,9 +33,9 @@
 #define MATRIX_ROWS 6
 #define MATRIX_COLS 16
 
-#define DIODE_DIRECTION  COL2ROW
-#define MATRIX_COL_PINS  { A0, A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12, A13, A14, A15 }
-#define MATRIX_ROW_PINS  { C3, C4, C5, C6, C7, C8 }
+#define DIODE_DIRECTION COL2ROW
+#define MATRIX_COL_PINS { A0, A1, A2, A3, A4, A5, A6, A7, A8, A9, A10, A11, A12, A13, A14, A15 }
+#define MATRIX_ROW_PINS { C3, C4, C5, C6, C7, C8 }
 
 /* LED matrix */
 #define LED_MATRIX_ROWS         MATRIX_ROWS
@@ -48,7 +48,7 @@
 #define DRIVER_LED_TOTAL        (85)
 
 /* Backlight configuration */
-#define LED_MATRIX_VAL_STEP             32
+#define LED_MATRIX_VAL_STEP 32
 
 /* Dexter's PWM hack */
 #define ACTIVATE_PWM_CHAN_0 //A0
@@ -75,10 +75,10 @@
 #define DEBOUNCE 5
 
 /* LED Status indicators */
-#define LED_CAPS_LOCK_PIN   D8
-#define LED_PIN_ON_STATE    1
+#define LED_CAPS_LOCK_PIN D8
+#define LED_PIN_ON_STATE  1
 
-#define LED_MATRIX_KEYPRESSES // reacts to keypresses
+#define LED_MATRIX_KEYPRESSES  // reacts to keypresses
 #define LED_MATRIX_KEYRELEASES // reacts to keyreleases (instead of keypresses)
 
 /* Enable led matrix effects */
