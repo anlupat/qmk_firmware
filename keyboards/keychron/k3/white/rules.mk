@@ -5,9 +5,6 @@ SRC += rand.c
 # MCU name
 MCU = SN32F268F
 
-# Define optical switches matrix
-OPT_DEFS += -DOPTICAL_MATRIX
-
 # Build Options
 #   comment out to disable the options.
 #
