@@ -2,10 +2,11 @@
 
 A customizable 100% keyboard.
 
-* Keyboard Maintainer(s): None, you are at your own risk
+* Keyboard Maintainer(s): edlf
 * Hardware Supported: Keychron C2 White
 * Hardware Availability: [Keychron](https://www.keychron.com/products/keychron-c1-wired-mechanical-keyboard)
 * This is based of the Keychron C1 White implementation by IsaacDynamo
+* VIA build might get dropped at some point due to lack of RAM
 
 # Install
 1. If your keyboard currently has stock firmware installed, put your keyboard first into bootloader by shorting the boot pins found under the spacebar before plugging in your keyboard to the PC. Otherwise, press `Fn + Esc` to put your keyboard into bootloader.
