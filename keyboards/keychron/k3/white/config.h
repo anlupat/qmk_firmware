@@ -67,12 +67,6 @@
 #define ACTIVATE_PWM_CHAN_13 //A13
 #define ACTIVATE_PWM_CHAN_14 //A14
 #define ACTIVATE_PWM_CHAN_15 //A15
-#define ACTIVATE_PWM_CHAN_16 //D4
-// #define ACTIVATE_PWM_CHAN_17 //D1
-// #define ACTIVATE_PWM_CHAN_18 //D2
-// #define ACTIVATE_PWM_CHAN_19 //D3
-// #define ACTIVATE_PWM_CHAN_21 //D5
-// #define ACTIVATE_PWM_CHAN_22 //D8
 
 /* Connects each switch in the dip switch to the GPIO pin of the MCU */
 #define DIP_SWITCH_PINS { D7 }
